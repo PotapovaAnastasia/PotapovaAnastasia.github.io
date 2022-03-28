@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.section2 {
+    background-color: #fff;
+    max-width: 1170px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 58px;
+    padding-top: 35px;
+    margin: 0 auto;
+
+}
+
+.title__top {
+    font-size: 36px;
+    text-align: center;
+    width: 1170px;
+    height: 150px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+
+.title__line {
+    border: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto;
+}
+
+.title__bottom {
+    font-size: 18px;
+    color: #86878B;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+.content__firstblock {
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    flex-direction: column;
+}
+
+.content__secondblock {
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    flex-direction: column;
+}
+
+.content__therdblock {
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    width: 370px;
+    height: 105px;
+    text-align: center;
+    line-height: 21px;
+    font-style: normal;
+}
+
+.content1__title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 10px;
+
+}
+
+

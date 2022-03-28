@@ -1,0 +1,33 @@
+.media {
+    max-width: 1510px;
+    height: 140px;
+    background-color: #F8EFEF;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+    margin-bottom: 100px;
+}
+
+.media__info__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #333333;
+}
+.media__info__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding-top: 35px;
+}
+.media__links {
+    align-items: center;
+    padding-left: 49px;
+}
+.media__links__image {
+    padding-right: 25px;
+}

@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.section4 {
+    background-color: #fff;
+    height: 744px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.opinions {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinions__block {
+    margin-right: 30px;
+    background-color: #E2E2E2;;
+    border-radius: 10px;
+    padding: 33px 18px 31px;
+}
+
+.opinions__block:last-child {
+    margin-right: 0;
+}
+
+.opinions__block1__text {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+
+.opinions__decorations {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.opinions__decorations__item {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid #E2E2E2;
+}
+
+.opinions__decorations__item3 {
+    position: relative;
+    left: 820px;
+}
+
+.opinions__decorations__item2 {
+    position: relative;
+    left: 445px;
+}
+
+.opinions__decorations__item1 {
+    position: relative;
+    left: 70px;
+}
+
+.people__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.people__block__item {
+    width: 370px;
+}
+
+.people__block__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.people__block__job {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.people__block__text {
+    padding-left: 100px;
+    z-index: 0;
+}
+
+.people__block__image {
+    display: block;
+    z-index: 1;
+    position: relative;
+    top: -70px;
+}

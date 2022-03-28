@@ -1,0 +1,21 @@
+.footer {
+    max-width: 1510px;
+    height: 164px;
+    background-color: #000;
+
+    text-align: center;
+
+}
+.footer__images {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.footer__images__item {
+    padding-right: 25px;
+}
+.footer__info {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+}
