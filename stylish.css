@@ -1,20 +1,57 @@
 .section6 {
-    max-width: 1510px;
     height: 442px;
-    background: url(assets/bg2.png), url(assets/back2.png);
+    background: url(assets/bg2.png), url(assets/back2.png) center no-repeat;
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background-size: 1510px 442px;
+    background-size: cover;
 }
 
+@media (max-width: 1200px) {
+    .section6 {
+        height: 358px;
+    }
+}
 
-.section6__title__top {
+.container__section6 {
+    max-width: 1510px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+    .container__section6 {
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section6 {
+
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+}
+
+.section6__title__top{
     font-size: 36px;
     line-height: 150px;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-top: 50px;
 }
+
+@media (max-width: 1200px) {
+    .section6__title__top {
+        font-size: 24px;
+        line-height: 120px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section6__title__top {
+        padding-top: 10px;
+    }
+}
+
 .section6__title__line {
     border: 1px solid #fff;
     width: 170px;
@@ -26,6 +63,21 @@
     color: #FFFFFF;
     padding-top: 40px;
     padding-bottom: 73px;
+}
+
+@media (max-width: 1200px) {
+    .section6__title__bottom {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section6__title__bottom {
+        padding-bottom: 40px;
+    }
 }
 
 .section6__button {
@@ -40,6 +92,20 @@
     color: #FFFFFF;
 
 }
+
+@media (max-width: 1200px) {
+    .section6__button {
+        width: 318px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section6__button {
+        width: 287px;
+        line-height: 50px;
+    }
+}
+
 .section6__button:hover {
     border: 2px solid #EC7979;
     color: #EC7979;

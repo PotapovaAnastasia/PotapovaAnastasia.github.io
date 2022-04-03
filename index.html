@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Верстка</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,63 +24,73 @@
     </head>
 <body>
     <header class="header">
-        <nav class="header__navigation">
-            <ul class="header__navigation__list">
-                <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Features</a></li>
-                <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">About</a></li>
-                <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Pricing</a></li>
-                <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Reviews</a></li>
-                <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Contact</a></li>
-            </ul>
-            <img src="assets/logo.png" alt="" class="logo">
-        </nav>
+        <div class="content__header">
+            <nav class="header__navigation">
+                <ul class="header__navigation__list">
+                    <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Features</a></li>
+                    <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">About</a></li>
+                    <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Pricing</a></li>
+                    <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Reviews</a></li>
+                    <li class="header__navigation__list__item"><a class="header__navigation__list__item__link" href="#">Contact</a></li>
+                </ul>
+                <img src="assets/logo.png" alt="" class="logo">
+                <div class="toggle"><span class="toggle__item">Menu</span></div>
+            </nav>
+        </div>
     </header>
 
     <section class="section5">
-        <div class="section5__content">
-            <div class="section5__content__image"><img src="assets/logobig.png" alt="" class="section5__content__image__item"></div>
-            <div class="section5__content__title"><h1 class="section5__content__title__top">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL<br> PROTOTYPES</h1>
-                <hr class="section5__content__title__line">
-                <p class="section5__content__title__bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
-            </div>
-            <button class="section5__content__button">Download</button>
-        </div>
-        <div class="section5__form">
-            <form action="#" class="section5__form__item">
-                <div class="section5__form__item1">
-                    <div class="section5__form__title">Try Your <span class="section5__form__title__span">FREE</span> Trial Today</div>
-                    <div class="section5__form__item1__item">
-                        <div class="section5__form__item1__item__text"><label for="nam">Name</label></div>
-                        <input id ="nam" type="text" size="30" name="name" class="section5__form__name__input">
+        <div class="content__section5">
+            <div class="section5__row">
+                <div class="section5__content">
+                    <div class="section5__content__image"><img src="assets/logobig.png" alt="" class="section5__content__image__item"></div>
+                    <div class="section5__content__title"><h1 class="section5__content__title__top">MODERN AXURE TEMPLATE<br> FOR BEAUTIFUL<br> PROTOTYPES</h1>
+                        <hr class="section5__content__title__line">
+                        <p class="section5__content__title__bottom">Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit</p>
                     </div>
-                    <div class="section5__form__item1__item">
-                        <div class="section5__form__item1__item__text"><label for="em">Email</label></div>
-                        <input id ="em" type="text" size="30" name="email" class="section5__form__email__input">
-                    </div>
-                    <div class="section5__form__item1__item">
-                        <div class="section5__form__item1__item__text"><label for="pas">Password</label></div>
-                        <input id ="pas" type="password" size="30" name="password" class="section5__form__password__input">
-                    </div>
+                    <button class="section5__content__button">Download</button>
                 </div>
-                <button class="section5__form__button">Get Started</button>
-            </form>
+                <div class="section5__form">
+                    <form action="#" class="section5__form__item">
+                        <div class="section5__form__item1">
+                            <div class="section5__form__title">Try Your <span class="section5__form__title__span">FREE</span> Trial Today</div>
+                            <div class="section5__form__item1__item">
+                                <div class="section5__form__item1__item__text"><label for="nam">Name</label></div>
+                                <input id ="nam" type="text" size="15" name="name" class="section5__form__name__input">
+                            </div>
+                            <div class="section5__form__item1__item">
+                                <div class="section5__form__item1__item__text"><label for="em">Email</label></div>
+                                <input id ="em" type="text" size="15" name="email" class="section5__form__email__input">
+                            </div>
+                            <div class="section5__form__item1__item">
+                                <div class="section5__form__item1__item__text"><label for="pas">Password</label></div>
+                                <input id ="pas" type="password" size="15" name="password" class="section5__form__password__input">
+                            </div>
+                        </div>
+                        <button class="section5__form__button">Get Started</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
+
     <section class="media">
-        <div class="media__info">
-            <div class="media__info__title">Social Media</div>
-            <div class="media__info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-                Aenean euismod bibendum laoreet.</div>
-        </div>
-        <div class="media__links">
-            <a href="#"><img src="assets/1.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/2.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/3.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/4.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/5.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/6.svg" alt="" class="media__links__image"></a>
-            <a href="#"><img src="assets/7.svg" alt="" class="media__links__image"></a>
+        <div class="content__media">
+            <div class="media__info">
+                <div class="media__info__title">Social Media</div>
+                <div class="media__info__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Aenean euismod bibendum laoreet.</div>
+            </div>
+            <div class="media__links">
+                <a href="#"><img src="assets/1.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/2.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/3.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/4.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/5.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/6.svg" alt="" class="media__links__image"></a>
+                <a href="#"><img src="assets/7.svg" alt="" class="media__links__image"></a>
+            </div>
         </div>
     </section>
 
@@ -270,12 +281,14 @@
     </section>
 
     <div class="section6">
-        <div class="section6__title">
-            <h1 class="section6__title__top">STYLISH AXURE DESIGN</h1>
-            <hr class="section6__title__line">
-            <p class="section6__title__bottom">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <div class="container__section6">
+            <div class="section6__title">
+                <h1 class="section6__title__top">STYLISH AXURE DESIGN</h1>
+                <hr class="section6__title__line">
+                <p class="section6__title__bottom">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+            </div>
+            <button class="section6__button">Download</button>
         </div>
-        <button class="section6__button">Download</button>
     </div>
 
     <section class="section7">
@@ -289,15 +302,15 @@
                 <div class="section7__form__item1">
                     <div class="section7__form__item1__item">
                         <div class="section7__form__item1__item__text"><label for="nam2">Name</label></div>
-                        <input id ="nam2" type="text" size="60" name="name" class="section7__form__name__input">
+                        <input id ="nam2" type="text" size="15" name="name" class="section7__form__name__input">
                     </div>
                     <div class="section7__form__item1__item">
                         <div class="section7__form__item1__item__text"><label for="em2">Email</label></div>
-                        <input id ="em2" type="text" size="60" name="email" class="section7__form__email__input">
+                        <input id ="em2" type="text" size="15" name="email" class="section7__form__email__input">
                     </div>
                     <div class="section7__form__item1__item">
                         <div class="section7__form__item1__item__text"><label for="pas2">Password</label></div>
-                        <input id ="pas2" type="password" size="60" name="password" class="section7__form__password__input">
+                        <input id ="pas2" type="password" size="15" name="password" class="section7__form__password__input">
                     </div>
                 </div>
                 <div class="section7__form__item2">
@@ -309,16 +322,18 @@
     </section>
 
     <footer class="footer">
-        <div class="footer__images">
-            <a href="#"><img src="assets/8.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/9.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/10.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/11.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/12.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/13.svg" alt="" class="footer__images__item"></a>
-            <a href="#"><img src="assets/14.svg" alt="" class="footer__images__item"></a>
+        <div class="container__footer">
+            <div class="footer__images">
+                <a href="#"><img src="assets/8.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/9.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/10.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/11.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/12.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/13.svg" alt="" class="footer__images__item"></a>
+                <a href="#"><img src="assets/14.svg" alt="" class="footer__images__item"></a>
+            </div>
+            <div class="footer__info">© 2015 Axure Themes</div>
         </div>
-        <div class="footer__info">© 2015 Axure Themes</div>
     </footer>
 </body>
 </html>

@@ -8,17 +8,48 @@
     margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+    .section7 {
+        height: auto;
+        max-width: 992px;
+        padding-top: 25px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section7 {
+        max-width: 340px;
+        padding: 10px 10px 40px;
+    }
+}
 
 .section7__form__item {
     display: flex;
-
     font-family: 'Open Sans', sans-serif;
 }
-.section7__form__item1 {
-    padding: 0 40px 50px;
 
+@media (max-width: 575px) {
+    .section7__form__item {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
 }
 
+.section7__form__item1 {
+    padding: 0 40px 50px;
+}
+
+@media (max-width: 1200px) {
+    .section7__form__item1 {
+        padding: 0 40px 40px 15px;
+    }
+}
+@media (max-width: 575px) {
+    .section7__form__item1 {
+        padding: 0 0 40px;
+    }
+}
 .section7__form__item1__item {
     width: 571px;
     display: flex;
@@ -26,16 +57,50 @@
     padding-top: 15px;
 
 }
+
+@media (max-width: 1200px) {
+    .section7__form__item1__item {
+        width: 470px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section7__form__item1__item {
+        width: 300px;
+    }
+}
+
 .section7__form__item1__item__text {
     line-height: 51px;
     color: #BDBDBD;
     padding-right: 20px;
 }
+
+@media (max-width: 575px) {
+    .section7__form__item1__item__text {
+        padding-right: 0;
+    }
+}
+
 .section7__form__item2 {
     width: 569px;
     height: 202px;
 
 }
+
+@media (max-width: 1200px) {
+    .section7__form__item2 {
+        width: 470px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section7__form__item2 {
+        width: 300px;
+        height: 202px;
+    }
+}
+
 .section7__form__item1__item__text2 {
     line-height: 51px;
     color: #BDBDBD;
@@ -53,6 +118,18 @@
     resize: none;
 }
 
+@media (max-width: 1200px) {
+    .section7__form__name__input2 {
+        width: 470px;
+    }
+}
+
+@media (max-width: 575px) {
+    .section7__form__name__input2 {
+        width: 300px;
+    }
+}
+
 .section7__form__button {
     display: block;
     margin: 0 auto;
@@ -65,8 +142,15 @@
     background-color: #EC7979;
     padding: 16px 0;
     font-family: 'Open Sans', sans-serif;
-
 }
+
+@media (max-width: 1200px) {
+    .section7__form__button {
+        width: 318px;
+        padding: 16px 0;
+    }
+}
+
 .section7__form__button:hover {
     background-color: #AB4949;
 }

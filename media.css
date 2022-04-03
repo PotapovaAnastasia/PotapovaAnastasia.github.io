@@ -1,11 +1,44 @@
 .media {
-    max-width: 1510px;
     height: 140px;
     background-color: #F8EFEF;
+    margin: 0 auto 100px auto;
+}
+
+@media (max-width: 1200px) {
+    .media {
+        height: 105px;
+        margin: 0 auto 45px auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .media {
+        height: 219px;
+        margin: 0 auto 35px auto;}
+}
+
+.content__media {
+    max-width: 1510px;
+    margin: 0 auto;
+    padding-left: 170px;
     display: flex;
     align-items: center;
-    padding-left: 170px;
-    margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+    .content__media {
+        padding-left: 16px;
+        max-width: 1024px;
+    }
+}
+
+@media (max-width: 575px) {
+    .content__media {
+        max-width: 340px;
+        padding: 0 10px;
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 .media__info__title {
@@ -15,7 +48,23 @@
     line-height: 24px;
     text-transform: capitalize;
     color: #333333;
+    margin-top: 10px;
 }
+
+@media (max-width: 1200px) {
+    .media__info__title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .media__info__title {
+        margin-top: 30px;
+    }
+}
+
 .media__info__text {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -24,10 +73,56 @@
     color: #86878B;
     padding-top: 35px;
 }
+
+@media (max-width: 1200px) {
+    .media__info__text {
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .media__info__text {
+        margin-bottom: 15px;
+    }
+}
+
 .media__links {
     align-items: center;
     padding-left: 49px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
 }
+
+@media (max-width: 1200px) {
+    .media__links {
+        padding-left: 45px;
+    }
+}
+
+@media (max-width: 575px) {
+    .media__links {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .media__links a img {
+        width: 74px;
+        height: auto;
+    }
+}
+
 .media__links__image {
     padding-right: 25px;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 1410px) {
+    .media__links__image {
+        padding-right: 15px;
+    }
 }
