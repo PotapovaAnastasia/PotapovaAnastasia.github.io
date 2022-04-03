@@ -151,6 +151,13 @@
     }
 }
 
+@media (max-width: 575px) {
+    .section7__form__button {
+        width: 288px;
+        height: 50px;
+    }
+}
+
 .section7__form__button:hover {
     background-color: #AB4949;
 }
